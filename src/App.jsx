@@ -9,17 +9,27 @@ function App() {
     // const newCreditTime = creditTime+credit;
     // setCreditTime(newCreditTime);
     //console.log(course)
-    const newCourse =[...courseSelected,course];
-    setCourseSelected(newCourse)
+    //const newCourse =[...courseSelected,course];
+    if(courseSelected.includes(course)){
+      alert('You already Have this Course');
+    }
+    else{
+      const newCourse =[...courseSelected,course];
+      setCourseSelected(newCourse);
+    }
   }
 
   return (
     <>
     <Header></Header>
+    <div className='md:flex'>
+    
     <Courses handleCourseSelected={handleCourseSelected} ></Courses>
-    <SelectedCourse courseSelected={courseSelected} ></SelectedCourse>
+    <SelectedCourse courseSelected={courseSelected} ></SelectedCourse></div>
     </>
   )
 }
 
 export default App
+
+

@@ -29,3 +29,4 @@ const Courses = ({handleCourseSelected}) => {
 };
 
 export default Courses;
+
