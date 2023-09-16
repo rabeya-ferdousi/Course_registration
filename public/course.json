@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "cover": "https://ibb.co/W61PCXg",
+        "title": "Introduction to Python Programming",
+        "course_details":" Learn the syntax, data types, and control structures of the Python programming language.",
+        "credit": 1,
+        "course_price": "15000"
+    },
+    {
+        "id": 2,
+        "cover": "https://ibb.co/W61PCXghttps://ibb.co/kMBZL7M",
+        "title": "Web Development with HTML, CSS, and JavaScript",
+        "course_details":"Build innovative websites and web applications with JavaScript, CSS, and HTML.",
+        "credit": 2,
+        "course_price": "25000"
+    },
+    {
+        "id": 3,
+        "cover": "https://ibb.co/W61PCXghttps://ibb.co/kMBZL7Mhttps://ibb.co/KK2Hzsx",
+        "title": "Java Programming for Beginners",
+        "course_details":"Learn the fundamentals of Java programming, object-oriented theory, and application development.",
+        "credit": 10 ,
+        "course_price": "10000"
+    },
+    {
+        "id": 4,
+        "cover": "https://ibb.co/mXDY70X",
+        "title": "Data Science with Python",
+        "course_details":"Learn how to use Python for data analysis, visualization, and machine learning.",
+        "credit": 5,
+        "course_price": "35000"
+    },
+    {
+        "id": 5,
+        "cover": "https://ibb.co/Lz1JtKR",
+        "title": "React.js Fundamentals",
+        "course_details":"Learn the fundamentals of using React.js to create user interfaces.",
+        "credit": 5,
+        "course_price": "20000"
+    },
+    {
+        "id": 6,
+        "cover": "https://ibb.co/vV2zMFJ",
+        "title": "Node.js and Express.js for Backend Development",
+        "course_details":"Build server-side apps with Node.js and Express.js, according to the course details.",
+        "credit": 2,
+        "course_price": "40000"
+    },
+    {
+        "id": 7,
+        "cover": "https://ibb.co/KKkfpm9",
+        "title": "Python for Data Science and Machine Learning",
+        "course_details":"Explore Python's machine learning and data science libraries in depth.",
+        "credit": 5,
+        "course_price": "35000"
+    },
+    {
+        "id": 8,
+        "cover": "https://ibb.co/8MqwC2j",
+        "title": "Database (MySQL)",
+        "course_details":"This course will provide you the skills you need to construct, manage, and query databases using MySQL, whether you're a developer, data analyst, or aspiring database administrator.",
+        "credit": 5,
+        "course_price": "19000"
+    },
+    {
+        "id": 9,
+        "cover": "https://ibb.co/0Fntwtn",
+        "title": "Problem-Solving Part",
+        "course_details":"It is a long established fact that a reader  will be distracted by the readable content of a page when looking at its layout.",
+        "credit": 2,
+        "course_price": "23000"
+    }
+]
