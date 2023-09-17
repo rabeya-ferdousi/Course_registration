@@ -4,8 +4,8 @@ const Course = ({course,handleCourseSelected}) => {
     const {title,cover,course_details,credit,course_price}=course;
     console.log(course)
     return (
-        <div className='mb-20 m-8'>
-            <div className='grid grid-cols-3'>
+        <div className='grid grid-cols-3'>
+            <div>
             <div class="card w-96 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
                 <img src={cover}  />
