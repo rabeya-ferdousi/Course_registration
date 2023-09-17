@@ -5,27 +5,32 @@ import Courses from './Components/Courses/Courses'
 import SelectedCourse from './Components/SelectedCourse/SelectedCourse'
 function App() {
   const [courseSelected,setCourseSelected] = useState([]);
-  const handleCourseSelected = course =>{
+  const [creditTime,setCreditTime] = useState(0);
+  const handleCourseSelected = (course,credit) =>{
     // const newCreditTime = creditTime+credit;
     // setCreditTime(newCreditTime);
     //console.log(course)
     //const newCourse =[...courseSelected,course];
     if(courseSelected.includes(course)){
-      alert('You already Have this Course');
+      window.alert('You already Have this Course');
     }
     else{
       const newCourse =[...courseSelected,course];
       setCourseSelected(newCourse);
+      setCreditTime(creditTime+credit);
     }
   }
+  // const handleCreditTime = credit_time => {
+  //   setCreditTime(creditTime+credit_time);
+  // }
 
   return (
     <>
     <Header></Header>
-    <div className='md:flex'>
+    <div className='flex'>
     
     <Courses handleCourseSelected={handleCourseSelected} ></Courses>
-    <SelectedCourse courseSelected={courseSelected} ></SelectedCourse></div>
+    <SelectedCourse courseSelected={courseSelected} creditTime ={creditTime}></SelectedCourse></div>
     </>
   )
 }

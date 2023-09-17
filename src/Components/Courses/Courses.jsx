@@ -10,7 +10,7 @@ const Courses = ({handleCourseSelected}) => {
     },[])
     return (
         <div>
-            <h1 className="text-xl">Total: {courses.length}</h1>
+            {/* <h1 className="text-xl">Total: {courses.length}</h1> */}
 
             <div>
             {

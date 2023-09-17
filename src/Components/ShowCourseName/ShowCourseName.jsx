@@ -3,10 +3,14 @@
 const ShowCourseName = ({course}) => {
     const {title} = course;
     //console.log(title)
+    
     return (
-        <div>
-            <h3>{title}</h3>
+        <><div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card-body">
+                <h2>{title}</h2>
+            </div>
         </div>
+        </>
     );
 };
 
